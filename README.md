@@ -77,8 +77,9 @@ conda install -c deepchem -c rdkit -c conda-forge -c omnia deepchem-gpu==2.3.0
 
 ### Install via pip (WIP)
 
-You are able to try to install deepchem via pip using the following command.  
-However, pip installation is under development, so this command may not work well.
+You are able to try to install deepchem via pip using the following
+command. However, pip installation is under development, so this
+command may not quite work yet.
 
 `deepchem>=2.4.0`
 
@@ -116,9 +117,9 @@ Then, follow each instruction on your OS.
 bash scripts/install_deepchem_conda.sh deepchem
 ```
 
-Before activating deepchem environment, make sure conda has been initialized.  
-Check if there is a `(base)` in your command line.  
-If not, use `conda init bash` to activate it, then:
+Before activating deepchem environment, make sure conda has been
+initialized.  Check if there is a `(base)` in your command line.  If
+not, use `conda init bash` to activate it, then:
 
 ```
 conda activate deepchem
@@ -136,9 +137,9 @@ Currently you have to install from source in windows.
 .\scripts\install_deepchem_conda.ps1 deepchem
 ```
 
-Before activating deepchem environment, make sure conda-powershell has been initialized.  
-Check if there is a `(base)` before `PS` in powershell.  
-If not, use `conda init powershell` to activate it, then:
+Before activating deepchem environment, make sure conda-powershell has
+been initialized.  Check if there is a `(base)` before `PS` in
+powershell.  If not, use `conda init powershell` to activate it, then:
 
 ```bash
 conda activate deepchem
@@ -242,5 +243,4 @@ To cite this book, please use this bibtex entry:
 ```
 
 ## Version
-
-2.1.0
+2.4.0rc
